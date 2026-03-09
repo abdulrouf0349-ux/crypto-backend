@@ -104,15 +104,11 @@ WSGI_APPLICATION = 'backend.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'cryptonews',      # Create this DB in MySQL first
-        'USER': 'root',              # Your MySQL username (usually root)
-        'PASSWORD': 'root', # Your MySQL password
-        'HOST': 'localhost',         # Localhost
-        'PORT': '3306',              # Default MySQL port
-        'OPTIONS': {
-            'init_command': "SET sql_mode='STRICT_TRANS_TABLES'",
-            'charset': 'utf8mb4',
-        },
+        'NAME': 'crypto_db',
+        'USER': 'crypto_user',
+        'PASSWORD': '03491685093A@',
+        'HOST': 'localhost',
+        'PORT': '3306',
     }
 }
 
